@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : proj_refactor_file
-// Author      : Brandon Berry
-// Version     : 09/23/2020
+// Author      : 
+// Version     : 
 // Copyright   : Steal this code!
 // Description : learn how to refactor files into a sensible directory structure
 //============================================================================
@@ -29,8 +29,7 @@ struct process{	int process_number=UNINITIALIZED;
 				int cpu_time=UNINITIALIZED;
 				int start_time=UNINITIALIZED;};
 
-//holds all the processes read in
-vector<process> myProcesses;
+
 
 //attempt to open file 'filename' and read in all data
 //returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
